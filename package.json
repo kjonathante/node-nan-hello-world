@@ -1,0 +1,25 @@
+{
+  "name": "node-nan-hello-world",
+  "version": "1.0.0",
+  "description": "Node.js - C++ Addons - Native Abstractions for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjonathante/node-nan-hello-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/kjonathante/node-nan-hello-world/issues"
+  },
+  "homepage": "https://github.com/kjonathante/node-nan-hello-world#readme",
+  "dependencies": {
+    "nan": "^2.13.2"
+  }
+}
