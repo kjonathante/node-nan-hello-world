@@ -8,6 +8,8 @@ Node.js - C++ Addons - Native Abstractions for Node.js
 - npm init -y
 - npm i nan
 
+- node-gyp configure
+- node-gyp build
 ```
 {
   "targets": [
